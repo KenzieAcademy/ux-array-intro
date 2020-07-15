@@ -10,6 +10,7 @@ Exercise One - Accessing an array
 */
 
 let sentence = ["The", "dog", "jumped", "over", "the", "fence"];
+test
 
 // Step One ------------------
 // Log the word "jumped" to the console by accessing it in the array.
