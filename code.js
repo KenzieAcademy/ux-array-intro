@@ -15,11 +15,14 @@ let sentence = ["The", "dog", "jumped", "over", "the", "fence"];
 // Log the word "jumped" to the console by accessing it in the array.
 
 // Your Code Here
+console.log (sentence[2]);
 
 // Step Two ------------------
 // Log the last word in the array to the console.
 
 // Your Code Here
+lastWord = (sentence.length - 1)
+console.log (sentence[lastWord]);
 
 /*
 ---------------------------------------------------------------------------
@@ -31,9 +34,16 @@ the sum to a new variable.
 Then log the sum to the console. (Hint: It should be 28)
 */
 
-let numbers = [3, 4, 5, 7, 9];
-
 // Your Code Here
+
+let numbers = [3, 4, 5, 7, 9];
+let numberSpot = (numbers.length - 1)
+let sum = 0;
+while (numberSpot >= 0) {
+    sum = sum + numbers[numberSpot];
+    numberSpot--;
+} 
+console.log (sum);
 
 /*
 ---------------------------------------------------------------------------
@@ -46,9 +56,11 @@ Exercise Three - Creating an array
 // The array should be assigned to a variable named "colors"
 
 // Your Code Here
+let colors = ["chartreuse", "periwinkle", "amaranth", "heliotrope", "alabaster"]
 
 // Step Two ------------------
 // Log the length of the array to the console (it should print 5)
+console.log (colors.length);
 
 /*
 ---------------------------------------------------------------------------
@@ -63,6 +75,8 @@ let names = []; // Don't modify this line.
 // Then log your array to the console.
 
 // Your Code Here
+names.push("link", "zelda", "ganon", "hyrule", "triforce");
+console.log (names);
 
 // Step Two ------------------
 // Using the index variable, assign a new name to the given index.
@@ -70,6 +84,8 @@ let names = []; // Don't modify this line.
 let index = 2;
 
 // Your Code Here
+names[index] = "ganondorf";
+console.log (names);
 
 /*
 ---------------------------------------------------------------------------
@@ -82,7 +98,9 @@ You will need to assign the result to a new variable.
 Then log the new array to the console.   Hint: Use concat, this was shown in the reading.
 */
 
+// Your Code Here.
+
 let firstArray = ["This", "will", "make"];
 let secondArray = ["a", "combined", "array."];
-
-// Your Code Here.
+let thirdArray = firstArray.concat(secondArray);
+console.log (thirdArray);
