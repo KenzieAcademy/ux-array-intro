@@ -9,18 +9,18 @@ Exercise One - Accessing an array
 
 */
 
-// let sentence = ['The', 'dog', 'jumped', 'over', 'the', 'fence'];
+let sentence = ['The', 'dog', 'jumped', 'over', 'the', 'fence'];
 
 // Step One ------------------
 // Log the word "jumped" to the console by accessing it in the array.
 
 // Your Code Here
-// console.log(sentence[2]);
+console.log(sentence[2]);
 // Step Two ------------------
 // Log the last word in the array to the console.
 
 // Your Code Here
-// console.log(sentence[5]
+console.log(sentence[5]
 /*
 ---------------------------------------------------------------------------
 Exercise Two - Adding up numbers
@@ -31,10 +31,10 @@ the sum to a new variable.
 Then log the sum to the console. (Hint: It should be 28)
 */
 
-// let numbers = [3, 4, 5, 7, 9];
+let numbers = [3, 4, 5, 7, 9];
 
 // Your Code Here
-// console.log('28');
+console.log('28');
 
 /*
 ---------------------------------------------------------------------------
@@ -47,10 +47,10 @@ Exercise Three - Creating an array
 // The array should be assigned to a variable named "colors"
 
 // Your Code Here
-// var colors = ['Red', 'Yellow', 'Blue', 'Green', 'Purple'];
+var colors = ['Red', 'Yellow', 'Blue', 'Green', 'Purple'];
 // Step Two ------------------
 // Log the length of the array to the console (it should print 5)
-// console.log(colors.length);
+console.log(colors.length);
 /*
 ---------------------------------------------------------------------------
 Exercise Four - Updating an array
@@ -64,14 +64,14 @@ Exercise Four - Updating an array
 // Then log your array to the console.
 
 // Your Code Here
-// let names = ['Sue', 'Bob', 'Ryan', 'Jack', 'Nikki'];
+let names = ['Sue', 'Bob', 'Ryan', 'Jack', 'Nikki'];
 // Step Two ------------------
 // Using the index variable, assign a new name to the given index.
 // Then log the modified array to the console.
-// let index = 2;
+let index = 2;
 
 // Your Code Here
-// console.log(names[2]);
+console.log(names[2]);
 /*
 ---------------------------------------------------------------------------
 Exercise Five - Concatenating an array
