@@ -15,11 +15,13 @@ let sentence = ["The", "dog", "jumped", "over", "the", "fence"];
 // Log the word "jumped" to the console by accessing it in the array.
 
 // Your Code Here
+console.log(sentence[2]);
 
 // Step Two ------------------
 // Log the last word in the array to the console.
 
 // Your Code Here
+console.log(sentence[5]);
 
 /*
 ---------------------------------------------------------------------------
@@ -34,7 +36,8 @@ Then log the sum to the console. (Hint: It should be 28)
 let numbers = [3, 4, 5, 7, 9];
 
 // Your Code Here
-
+let totalSum = numbers.reduce((a, b) => a + b);
+console.log(totalSum);
 /*
 ---------------------------------------------------------------------------
 Exercise Three - Creating an array
@@ -46,10 +49,11 @@ Exercise Three - Creating an array
 // The array should be assigned to a variable named "colors"
 
 // Your Code Here
+let colors = ["black", "red", "green", "brown", "pink"];
 
 // Step Two ------------------
 // Log the length of the array to the console (it should print 5)
-
+console.log(colors.length);
 /*
 ---------------------------------------------------------------------------
 Exercise Four - Updating an array
@@ -63,6 +67,8 @@ let names = []; // Don't modify this line.
 // Then log your array to the console.
 
 // Your Code Here
+names.push("Jevon", "Mira", "Marla", "Brook", "Katy");
+console.log(names);
 
 // Step Two ------------------
 // Using the index variable, assign a new name to the given index.
@@ -70,7 +76,8 @@ let names = []; // Don't modify this line.
 let index = 2;
 
 // Your Code Here
-
+names[index] = "Melissa";
+console.log(names);
 /*
 ---------------------------------------------------------------------------
 Exercise Five - Concatenating an array
@@ -86,3 +93,5 @@ let firstArray = ["This", "will", "make"];
 let secondArray = ["a", "combined", "array."];
 
 // Your Code Here.
+let comboArray = firstArray.concat(secondArray);
+console.log(comboArray);
